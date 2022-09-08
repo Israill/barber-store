@@ -1,6 +1,6 @@
 import userRoutes from "./user.routes";
 import authRoutes from "./auth.routes";
-import categoryRoutes from "./category.routes";
+import categoryRoutes from "./category.routes"
 import { Express } from "express";
 import errorHandler from "@middlewares/errorHandler";
 
