@@ -10,7 +10,6 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 const Slider = () => {
   return (
     <>
-      <div className>
         <Swiper
           spaceBetween={30}
           effect={"fade"}
@@ -40,7 +39,6 @@ const Slider = () => {
             <img src="https://p7014689.vo.llnwd.net/e1/media/wysiwyg/1600X415.png" />
           </SwiperSlide>
         </Swiper>
-      </div>
       <div className={styles.titles_container}>
         <div>
           <a href="/">FREE UK NEXT DAY DELIVERY</a>
